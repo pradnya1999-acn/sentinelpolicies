@@ -26,7 +26,7 @@ resource "google_storage_bucket" "auto-expire" {
      is_locked = true
    }
   public_access_prevention = "enforced"
-  encryption {
-    default_kms_key_name = "projects/parabolic-base-409505/locations/us-central1/keyRings/secret-keyring/cryptoKeys/secret-key"
-  }
+  #encryption {
+  #  default_kms_key_name = "projects/parabolic-base-409505/locations/us-central1/keyRings/secret-keyring/cryptoKeys/secret-key"
+  #}
 }
